@@ -35,7 +35,7 @@
 {
     NSString *name = [[NSUserDefaults standardUserDefaults]objectForKey:@"name"];
     if(name != nil){
-         [self performSegueWithIdentifier:@"customNext" sender:self];
+         [self performSegueWithIdentifier:@"skipView" sender:self];
     }
     
 }
